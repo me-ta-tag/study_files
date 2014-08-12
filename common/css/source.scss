@@ -13,52 +13,20 @@ progress{
 .content{
 	position: absolute;
 	width:200px;
-	height: 100px;
+    height: 100px;
 	div.name{
 		position:relative;
+        background-color: gainsboro;
+        margin-bottom: 10px;
 		span{
 			&.title{
 				position: relative;
+                color: red;
 			}
-			&.states{
-				position: relative;
-				left: 25px;
-				.sex{
-					position: relative;
-					left: 5px;
-				}
-				.lv{
-					font-size: 90%;
-				}
-				.mes{
-					color:#cc0000;
-				}
-				.osu{
-					color:#0000cc;
-				}
-			}
-		}
-	}
-	.bar{
-		left:50px;
-		position: relative;
-		width:105px;
-		height: 14px;
-		background-color: #333333;
-		border-radius: 2px;        /* CSS3草案 */  
-	    -webkit-border-radius: 2px;    /* Safari,Google Chrome用 */  
-	    -moz-border-radius: 2px;   /* Firefox用 */  
-		span{
-			left:2px;
-			top: -6px;
-			font-size: 50%;
-			position: relative;
-			color: #CCCC00;			
-		}
-		progress{
-			top: -8px;
-			left: 0px;
-			position: relative;
+            &.value{
+                position: relative;
+                color: green;
+            }
 		}
 	}
 }

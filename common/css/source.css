@@ -1,0 +1,35 @@
+@charset "UTF-8";
+progress {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 80px;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  border-radius: 2px;
+  /* CSS3草案 */
+  -webkit-border-radius: 2px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 2px;
+  /* Firefox用 */
+}
+
+.content {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+}
+.content div.name {
+  position: relative;
+  background-color: gainsboro;
+  margin-bottom: 10px;
+}
+.content div.name span.title {
+  position: relative;
+  color: red;
+}
+.content div.name span.value {
+  position: relative;
+  color: green;
+}
