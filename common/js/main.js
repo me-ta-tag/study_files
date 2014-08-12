@@ -3,6 +3,7 @@
  * @param {Object} args
  */
 
+
 var board = function (args) {
     var options = {
         name: "名無し",
@@ -40,6 +41,7 @@ for(var i =0; i< boardList.length;i++){
 
  */
 
+/* kobayashi*/
 var tmp = _.template($("#boardTemp").html());
 for(var i =0; i< boardList.length;i++){
     $(".content").append(tmp(boards[i]));
