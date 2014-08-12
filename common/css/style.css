@@ -1,0 +1,70 @@
+@charset "UTF-8";
+progress {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 80px;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  border-radius: 2px;
+  /* CSS3草案 */
+  -webkit-border-radius: 2px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 2px;
+  /* Firefox用 */
+}
+
+.content {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+}
+.content div.name {
+  position: relative;
+}
+.content div.name span.title {
+  position: relative;
+}
+.content div.name span.states {
+  position: relative;
+  left: 25px;
+}
+.content div.name span.states .sex {
+  position: relative;
+  left: 5px;
+}
+.content div.name span.states .lv {
+  font-size: 90%;
+}
+.content div.name span.states .mes {
+  color: #cc0000;
+}
+.content div.name span.states .osu {
+  color: #0000cc;
+}
+.content .bar {
+  left: 50px;
+  position: relative;
+  width: 105px;
+  height: 14px;
+  background-color: #333333;
+  border-radius: 2px;
+  /* CSS3草案 */
+  -webkit-border-radius: 2px;
+  /* Safari,Google Chrome用 */
+  -moz-border-radius: 2px;
+  /* Firefox用 */
+}
+.content .bar span {
+  left: 2px;
+  top: -6px;
+  font-size: 50%;
+  position: relative;
+  color: #CCCC00;
+}
+.content .bar progress {
+  top: -8px;
+  left: 0px;
+  position: relative;
+}
